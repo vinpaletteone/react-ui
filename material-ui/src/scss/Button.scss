@@ -1,0 +1,8 @@
+.button-wrap{
+    margin: 100px 0;
+    button{
+        &+button{
+            margin-left: 10px;
+        }
+    }
+}
